@@ -1,0 +1,136 @@
+body{
+    background-color: #685d79;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.heading{
+   
+ text-align: center;
+ color: rgb(245, 245, 247);
+ padding-top: 20px;
+ padding-bottom: 30px;
+ font-size: 25px;
+ 
+}
+
+  
+
+#menu-st-box{
+    background-color: #AB6C82;
+    color: white;
+    border: 1px solid #202020;
+    margin: 0px;
+    padding: 4px;
+    float: right;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+   
+}
+
+#menu-nd-box{
+    background-color: #D8737F;
+    color: white;
+    border: 1px solid #202020;
+    margin: 0px;
+    padding: 4px;
+    float: right;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+   
+}
+
+#menu-rd-box{
+    background-color: #FCBB6D;
+    color: white;
+    border: 1px solid #202020;
+    margin: 0px;
+    padding: 4px;
+    float: right;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+   
+}
+
+
+
+#st-box{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    float:left;
+            width:345px;
+            height:150px;        
+    border: 1px solid black; 
+    overflow: hidden;
+}
+
+#nd-box{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    float:left;
+            width:345px;
+            height:150px;     
+    border: 1px solid black;
+    overflow: hidden;
+    
+}
+
+#rd-box{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    float:left;
+            width:345px;
+            height:150px;
+            overflow: hidden;
+            border: 1px solid black;
+}
+
+
+.container{
+    background-color: #475c7a;
+    color: white;
+    padding-top: 30px;
+    line-height: 18px;
+   padding-left: 5px;
+   padding-bottom: 75px;
+   font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+       ;
+    
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    #st-box, #nd-box {
+      width: 40%;
+      padding: 0px ;
+    }
+   #rd-box{
+      width: 100%;
+      padding-bottom: 0px;
+    }
+   
+}
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+  #st-box, #nd-box,#rd-box {
+      width: 100%;
+      padding-bottom: 0px;
+    }
+   
+  }
